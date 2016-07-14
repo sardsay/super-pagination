@@ -1,7 +1,7 @@
 <ul class="pagination {% if data.size %}pagination-{{ data.size }}{% endif %}">
     {% if data.show_first %}
     <li>
-        <a href="{{ data.first_url }}" title="first Page">{{ data.first_text|safe }}</a>
+        <a href="{{ data.first_url }}" title="First Page">{{ data.first_text|safe }}</a>
     </li>
     {% endif %}
     {% if data.show_prev %}
